@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;800&display=swap');
+body{
+	font-family: 'Syne', sans-serif;font-weight: 400;font-size: 18px; line-height: 23px;background: #000;}
+img{max-width:100%;}
+*{margin:0;padding:0;}
+a:focus, a:hover{
+	text-decoration: none;
+}
+.accountBg{background: rgb(99,195,191);
+    background: linear-gradient(90deg, rgba(99,195,191,1) 0%, rgba(107,195,102,1) 75%);height: 100%;position: fixed;width:100%;}
+.accountFormHd .row {
+    justify-content: center;
+    align-items: baseline;
+}
+.accountBg img {
+    text-align: left;
+    width: 58%;
+}
+.accountPage{background: #000; overflow: hidden;}
+.accountForm {
+    width: 100%;
+    max-width: 350px;
+    margin: 30px auto 0;
+}
+.accountFormHd img {
+    width: 73%;
+}
+.backNav {
+    padding-top: 29px;
+	color: #808080;
+}
+.backNav a {
+    color: #808080;
+    text-decoration: none;
+	    font-size: 16px;
+}
+.accountFormField h2{font-size:32px; color:#fff; margin-bottom: 30px;}
+.accountFormField {
+    margin: 50px 0;}
+.formField {
+    margin: 10px 0;
+}
+.formField label {
+    color: #fff;
+        width: 89%;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 6px;}
+input[type="text"], input[type="password"], input[type="email"], select, textarea {
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #000;
+    font-size: 16px;
+}
+.formField .action-button{background: rgb(99,195,191);
+    background: linear-gradient(90deg, rgba(99,195,191,1) 0%, rgba(107,195,102,1) 75%);font-weight: 600;width: 100%;
+    border-radius: 5px;
+    padding: 15px;}
+.formField .action-button:hover{background: rgb(99,195,191);
+    background: linear-gradient(90deg, rgba(107,195,102,1) 0%, rgba(99,195,191,1) 75%);}
+.text-right{text-align:right;}
+.formField .forgetmenot {
+    margin: 0;}
+.formFieldCW {
+    text-align: center;
+    margin: 35px 35px 20px;
+	    color: #cdcdcd;
+}
+.socialIcons ul{margin:0;padding:0; text-align: center;}
+.socialIcons ul li{list-style: none;
+    display: inline-block;
+    margin: 0 6px;}
+.socialIcons ul li a{display: flex;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    background: #1877F2;
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 100px;}
+.formFieldBottom {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 40px;
+    font-weight: 300;}
+.formFieldBottom a {
+    color: #64C4C1;
+    text-decoration: none;}
+
+.formFieldBottom a:hover{text-decoration:underline;}
+.forgetmenot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.socialIcons ul li.google a{background: #fff;
+    color: #000;}
+.socialIcons ul li a:hover{opacity:0.8;}
+.socialIcons ul li.google a img {
+    width: 16px;
+}
+.socialIcons ul li.twitter a{background: #1D9BF0;}
+
+
+	
+@media (max-width: 600px) {
+.accountBg{display:none;}
+.accountPage {
+    padding: 0 5%;
+}
+.col-xs-6{flex: 0 0 auto;
+    width: 50%;}
+}
